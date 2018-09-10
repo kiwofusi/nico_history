@@ -34,7 +34,7 @@ class NicoHistoryClient
     /**
      * 視聴履歴を取得する
      *
-     * @return array 視聴履歴：URL、タイトル、視聴日時、視聴回数
+     * @return array 視聴履歴(url, title, view_time, view_count)
      */
     public function getHistory()
     {
